@@ -9,6 +9,6 @@ The purpose of this package is to document the testing that was done when first 
 ###### Installation
 Followed instructions at:  
 github.com/IntelRealSense/realsense-ros  
-- 'export ROS_VER=kinetic
-- 'sudo apt-get install ros-$ROS_VER-realsense2-camera'
-- -sudo apt-get update && upgrade  
+- `export ROS_VER=kinetic`
+- `sudo apt-get install ros-$ROS_VER-realsense2-camera`
+- `sudo apt-get update && upgrade`  
