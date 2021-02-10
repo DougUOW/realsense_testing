@@ -1,0 +1,6 @@
+<!--  -->
+
+<launch>
+	<node pkg="realsense_testing" type="stream_image.py" name="stream_depth_image" output="screen">	
+	</node>
+</launch>
