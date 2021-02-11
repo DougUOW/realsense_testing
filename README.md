@@ -16,3 +16,9 @@ github.com/IntelRealSense/realsense-ros
 Now that the required packages have been istalled, can use realsense viewer with the following command:  
 `realsense-viewer`  
 The realsense viewer allows us to access the camera and view the output from the camera. I also updated the firmware from within this program.  
+###### Using realsense with ROS
+The following command will launch the appropriate nodes/drivers to use the realsense in ROS:  
+`roslaunch realsense2_camera rs_camera.launch`  
+Now you should be able to launch RViz and see that relevent topic data, such as depth images, RGB streams.  
+For pointclouds:  
+`roslaunch realsense2_camera rs_camera.launch filters:=pointcloud`  
