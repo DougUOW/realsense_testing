@@ -22,3 +22,9 @@ The following command will launch the appropriate nodes/drivers to use the reals
 Now you should be able to launch RViz and see that relevent topic data, such as depth images, RGB streams.  
 For pointclouds:  
 `roslaunch realsense2_camera rs_camera.launch filters:=pointcloud`  
+## My script - stream_image.py
+This script will launch a ROS node that reads the depth data from the realsense camera. We the use OpenCV to determine what the physical depth in the real world is in relation to the centre pixel of the depth image. This scripts purpose is simply to show how we can use ROS, realsense and OpenCV to determine distance/depth in the real world.  
+The commands to execute this script are:  
+- `roslaunch realsense2_camera rs_camera.launch`
+- `roslaunch realsense_testing stream_image.launch`  
+PHD candidate Brendan Halloran provided the base code for this script.
