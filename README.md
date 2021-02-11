@@ -27,4 +27,5 @@ This script will launch a ROS node that reads the depth data from the realsense 
 The commands to execute this script are:  
 - `roslaunch realsense2_camera rs_camera.launch`
 - `roslaunch realsense_testing stream_image.launch`  
+
 PHD candidate Brendan Halloran provided the base code for this script.
